@@ -6,8 +6,8 @@ import os.path
 
 from json_helpers import DateTimeEncoder
 
-ORG = 'philips-software'
-REPO = 'philips-software.github.io'
+ORG = 'yuvaanshis'
+REPO = 'new_batch'
 GITHUB_TOKEN = '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'
 FILENAME_ISSUES = ORG + 'issues.json'
 
