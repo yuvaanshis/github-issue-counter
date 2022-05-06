@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# import github3
+import github3
 import json
 import os.path
 
