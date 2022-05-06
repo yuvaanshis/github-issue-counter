@@ -21,7 +21,7 @@ if os.path.isfile(FILENAME_ISSUES):
 #gh = Github(GITHUB_TOKEN)
 #gh = Github()
 #gh = github3.login(token=GITHUB_TOKEN)
-g = Github("GITHUB_TOKEN")
+gh = Github("GITHUB_TOKEN")
 
 if REPO not in data.keys():
 	data[REPO] = {}
