@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 import requests
-from github import Github
-import json
-import os.path
+import github3, json, os.path
 
 from json_helpers import DateTimeEncoder
 
@@ -21,7 +19,8 @@ if os.path.isfile(FILENAME_ISSUES):
 #gh = Github(GITHUB_TOKEN)
 #gh = Github()
 #gh = github3.login(token=GITHUB_TOKEN)
-gh = Github("GITHUB_TOKEN")
+#gh = Github("GITHUB_TOKEN")
+gh = github3.login(token=GITHUB_TOKEN)
 
 if REPO not in data.keys():
 	data[REPO] = {}
