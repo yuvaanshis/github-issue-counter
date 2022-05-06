@@ -1,8 +1,9 @@
 #!/usr/bin/env python
-
-import github3
+import requests
+from github import Github
 import json
 import os.path
+from prettytable import PrettyTable
 
 from json_helpers import DateTimeEncoder
 
@@ -18,7 +19,7 @@ if os.path.isfile(FILENAME_ISSUES):
 	data = json.load(f)
 	f.close()
 
-gh = github3.login(token=GITHUB_TOKEN)
+gh = github.login(token=GITHUB_TOKEN)
 
 if REPO not in data.keys():
 	data[REPO] = {}
