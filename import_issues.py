@@ -9,7 +9,7 @@ REPO = 'new_batch'
 
 FILENAME_ISSUES = ORG + 'issues.json'
 
-gh = github3.login(token=GITHUB_TOKEN)
+gh = login( token=GITHUB_TOKEN )
 
 issues = []
 for i, issue in enumerate(gh.issues_on(ORG, REPO, state='all')):
