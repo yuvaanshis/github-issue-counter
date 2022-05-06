@@ -3,7 +3,6 @@ import requests
 from github import Github
 import json
 import os.path
-from prettytable import PrettyTable
 
 from json_helpers import DateTimeEncoder
 
