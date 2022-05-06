@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import github3
+from github3 import login
 import pandas as pd
 
 GITHUB_TOKEN = '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'
