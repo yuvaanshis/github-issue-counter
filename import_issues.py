@@ -7,7 +7,7 @@ from json_helpers import DateTimeEncoder
 
 ORG = 'yuvaanshis'
 REPO = 'new_batch'
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = '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'
 FILENAME_ISSUES = ORG + 'issues.json'
 
 #gh = Github(GITHUB_TOKEN)
