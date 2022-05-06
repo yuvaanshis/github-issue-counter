@@ -18,7 +18,7 @@ if os.path.isfile(FILENAME_ISSUES):
 	data = json.load(f)
 	f.close()
 
-gh = Github(token=GITHUB_TOKEN)
+gh = Github(GITHUB_TOKEN)
 
 if REPO not in data.keys():
 	data[REPO] = {}
