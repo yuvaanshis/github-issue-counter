@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import requests
-!pip install PyGithub
+pip install PyGithub
 from github import Github
 import json
 import os.path
