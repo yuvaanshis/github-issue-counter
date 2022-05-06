@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import requests
+#import requests
 import github3, json, os.path
 
 from json_helpers import DateTimeEncoder
