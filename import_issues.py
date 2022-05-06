@@ -25,7 +25,7 @@ gh = github3.login(token=GITHUB_TOKEN)
 if REPO not in data.keys():
 	data[REPO] = {}
 
-for i in gh.user_issues(ORG, REPO, state='all'):
+for i in gh.iter_repo_issues(ORG, REPO, state='all'):
 	data[REPO][i.number] = {
 		'created_at': i.created_at,
 		'closed_at': i.closed_at,
