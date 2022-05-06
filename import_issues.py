@@ -6,9 +6,8 @@ import os.path
 
 from json_helpers import DateTimeEncoder
 
-GITHUB_TOKEN = 'INSERTYOURSECRETGITHUBAPIKEYHERE'
-ORG = 'owncloud'
-REPO = 'core'
+ORG = 'philips-software'
+REPO = 'philips-software.github.io'
 FILENAME_ISSUES = ORG + 'issues.json'
 
 data = {}
